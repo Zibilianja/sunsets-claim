@@ -2,7 +2,8 @@
 name: Narrative Task
 about: Tasks related to story design, dialogue, character arcs, or world lore
 title: "[Narrative]: "
-labels: narrative
+labels: 
+    - narrative
 assignees: []
 ---
 

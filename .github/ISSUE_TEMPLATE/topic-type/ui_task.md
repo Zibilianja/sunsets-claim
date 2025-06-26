@@ -2,7 +2,8 @@
 name: UI Task
 about: User interface and experience components, HUD elements, menus, or feedback systems
 title: "[UI]: "
-labels: ui
+labels: 
+    - ui
 assignees: []
 ---
 

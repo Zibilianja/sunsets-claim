@@ -2,7 +2,8 @@
 name: Feature Request
 about: Suggest a new feature or mechanic
 title: "[Feature]: "
-labels: feature
+labels: 
+    - feature
 assignees: []
 ---
 

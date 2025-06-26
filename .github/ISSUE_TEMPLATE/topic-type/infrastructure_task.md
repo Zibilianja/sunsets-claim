@@ -2,7 +2,8 @@
 name: Infrastructure Task
 about: Project or code infrastructure work (build system, file structure, tools)
 title: "[Infrastructure]: "
-labels: infrastructure
+labels: 
+    - infrastructure
 assignees: []
 ---
 

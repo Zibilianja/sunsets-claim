@@ -2,7 +2,8 @@
 name: Bug Report
 about: Report a bug or blocker
 title: "[Bug]: "
-labels: bug
+labels: 
+    - bug
 assignees: []
 ---
 

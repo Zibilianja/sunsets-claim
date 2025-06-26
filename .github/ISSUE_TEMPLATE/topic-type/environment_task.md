@@ -2,7 +2,8 @@
 name: Environment Task
 about: Task related to level design, lighting, or world-building
 title: "[Environment]: "
-labels: environment
+labels: 
+    - environment
 assignees: []
 ---
 
