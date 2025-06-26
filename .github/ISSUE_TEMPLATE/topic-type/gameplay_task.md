@@ -2,7 +2,8 @@
 name: Gameplay Task
 about: Implement or refine mechanics, player actions, or system interactions
 title: "[Gameplay]: "
-labels: gameplay
+labels: 
+    - gameplay
 assignees: []
 ---
 

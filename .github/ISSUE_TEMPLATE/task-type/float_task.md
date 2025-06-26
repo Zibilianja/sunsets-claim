@@ -3,8 +3,7 @@ name: Float Task
 about: Non-blocking work that can be done at any time
 title: "[Float]: "
 labels:
-  - type: task
-  - priority: float
+  - float
 assignees: []
 ---
 

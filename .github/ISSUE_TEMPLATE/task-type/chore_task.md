@@ -2,7 +2,8 @@
 name: Chore Task
 about: Non-blocking work that needs to be done, but flexible in timing
 title: "[Chore]: "
-labels: chore
+labels: 
+    - chore
 assignees: []
 ---
 

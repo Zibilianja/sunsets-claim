@@ -2,7 +2,8 @@
 name: Character Task
 about: Task related to character modeling, rigging, or behavior
 title: "[Character]: "
-labels: character
+labels:
+    - character
 assignees: []
 ---
 

@@ -2,7 +2,8 @@
 name: Sub-Task
 about: A smaller unit of work contributing to a larger feature or epic
 title: "[Sub-Task]: "
-labels: subtask
+labels: 
+    - subtask
 assignees: []
 ---
 
