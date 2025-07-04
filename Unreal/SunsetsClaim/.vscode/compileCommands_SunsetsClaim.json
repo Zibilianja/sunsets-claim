@@ -1,0 +1,26 @@
+[
+	{
+		"file": "/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaim/SunsetsClaim.Build.cs",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/.vscode/compileCommands_SunsetsClaim/SunsetsClaim.1.rsp"
+		],
+		"directory": "/Users/zibilianja/Epic Games/UE_5.5/Engine/Source"
+	},
+	{
+		"file": "/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaim/SunsetsClaim.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/.vscode/compileCommands_SunsetsClaim/SunsetsClaim.1.rsp"
+		],
+		"directory": "/Users/zibilianja/Epic Games/UE_5.5/Engine/Source"
+	},
+	{
+		"file": "/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaim/SunsetsClaim.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/.vscode/compileCommands_SunsetsClaim/SunsetsClaim.1.rsp"
+		],
+		"directory": "/Users/zibilianja/Epic Games/UE_5.5/Engine/Source"
+	}
+]

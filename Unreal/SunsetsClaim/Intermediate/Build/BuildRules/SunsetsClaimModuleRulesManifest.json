@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaim/SunsetsClaim.Build.cs",
+		"/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaim.Target.cs",
+		"/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaimEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.2"
+}

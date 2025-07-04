@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SunsetsClaim",
+			"Path": "../Source/SunsetsClaim.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SunsetsClaimEditor",
+			"Path": "../Source/SunsetsClaimEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

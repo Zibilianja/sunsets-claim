@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		6EE7D0DC23FE9318A7239D18 = {isa = PBXBuildFile; fileRef = 29A362FA436F82869E3684B1; }; /* SunsetsClaim.cpp */
+		7421F13E36BD49C8379919CE = {isa = PBXBuildFile; fileRef = 4F62ED7653C9FEC0161485F3; }; /* Assets.xcassets */
+		95358FD056BBB82E88F2D9B3 = {isa = PBXBuildFile; fileRef = 83D4D47B002BFF28044E025A; }; /* LaunchScreen.storyboardc */
+		ED435D8A0672DEA962582B90 = {isa = PBXBuildFile; fileRef = DF15A249C9E8349978E182EE; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BACEE57C289650E89A608805 = {isa = PBXFileReference; explicitFileType = file.txt; name = "SunsetsClaim.Build.cs"; path = "../../Source/SunsetsClaim/SunsetsClaim.Build.cs"; sourceTree = SOURCE_ROOT; };
+		29A362FA436F82869E3684B1 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SunsetsClaim.cpp"; path = "../../Source/SunsetsClaim/SunsetsClaim.cpp"; sourceTree = SOURCE_ROOT; };
+		F776FD99313D40FA89174A5A = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SunsetsClaim.h"; path = "../../Source/SunsetsClaim/SunsetsClaim.h"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 = {isa = PBXFileReference; explicitFileType = file.txt; name = "SunsetsClaimEditor.Target.cs"; path = "../../Source/SunsetsClaimEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 = {isa = PBXFileReference; explicitFileType = file.txt; name = "SunsetsClaim.uproject"; path = "../../SunsetsClaim.uproject"; sourceTree = SOURCE_ROOT; };
+		F44FB62D8C1A4B319E2486E3 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "SunsetsClaimEditor"; path = "SunsetsClaimEditor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F62ED7653C9FEC0161485F3 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/zibilianja/Epic Games/UE_5.5/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		83D4D47B002BFF28044E025A = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/zibilianja/Epic Games/UE_5.5/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		DF15A249C9E8349978E182EE = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/zibilianja/Epic Games/UE_5.5/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		17BE767ADD2E97EFEF755E52 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "SunsetsClaimEditor.xcconfig"; path = "XcconfigsMac/SunsetsClaimEditor.xcconfig"; sourceTree = "<group>"; };
+		B19107EA0C08CA3C0FAB1A0A = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "SunsetsClaimEditor_DebugGame.xcconfig"; path = "XcconfigsMac/SunsetsClaimEditor_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		49E4389846A53F5AE71E0075 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "SunsetsClaimEditor_Development.xcconfig"; path = "XcconfigsMac/SunsetsClaimEditor_Development.xcconfig"; sourceTree = "<group>"; };
+		8FD8DD70690C47E0A07AAFC9 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		F9E5C5E61C6068A790F3CA47 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		2B497DC2911A2A2DAFA47BB0 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D84DD05341A33C49DB2B2ADF = {
+			isa = PBXGroup;
+			children = (
+				F3A41F6156627EA6018B5C7C /* Source */,
+				6EF1EB4E659A8BF798C986A9 /* SunsetsClaim.uproject */,
+				B9BF74F3C7BEE368ECA1B5D9 /* Products */,
+				7B445A4352F46FBA9FDFCCEA /* Resources */,
+				F94C6F323CEAF771CA5B530C /* Xcconfigs */,
+				2F2A69DAD3807562327EB66F /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A41F6156627EA6018B5C7C = {
+			isa = PBXGroup;
+			children = (
+				152722D80DF18E3537DE6CE7 /* SunsetsClaim */,
+				9F1A6E3CBDFC1C4D72A426E5 /* SunsetsClaimEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source";
+			sourceTree = "<absolute>";
+		};
+		152722D80DF18E3537DE6CE7 = {
+			isa = PBXGroup;
+			children = (
+				BACEE57C289650E89A608805 /* SunsetsClaim.Build.cs */,
+				29A362FA436F82869E3684B1 /* SunsetsClaim.cpp */,
+				F776FD99313D40FA89174A5A /* SunsetsClaim.h */,
+			);
+			name = "SunsetsClaim";
+			path = "/Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/Source/SunsetsClaim";
+			sourceTree = "<absolute>";
+		};
+		B9BF74F3C7BEE368ECA1B5D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44FB62D8C1A4B319E2486E3 /* SunsetsClaimEditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B445A4352F46FBA9FDFCCEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F62ED7653C9FEC0161485F3 /* Assets.xcassets */,
+				83D4D47B002BFF28044E025A /* LaunchScreen.storyboardc */,
+				DF15A249C9E8349978E182EE /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F94C6F323CEAF771CA5B530C /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				17BE767ADD2E97EFEF755E52 /* SunsetsClaimEditor.xcconfig */,
+				B19107EA0C08CA3C0FAB1A0A /* SunsetsClaimEditor_DebugGame.xcconfig */,
+				49E4389846A53F5AE71E0075 /* SunsetsClaimEditor_Development.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		2F2A69DAD3807562327EB66F /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				8FD8DD70690C47E0A07AAFC9 /* Info-Editor.Template.plist */,
+				F9E5C5E61C6068A790F3CA47 /* Info.Template.plist */,
+				2B497DC2911A2A2DAFA47BB0 /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		905782A352F0EE168ABC19AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					F3CA408BC3860CA69A714C26 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20DAC4198F24548BE7B0A4C5 /* Build configuration list for PBXProject "SunsetsClaimEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = D84DD05341A33C49DB2B2ADF;
+			productRefGroup = B9BF74F3C7BEE368ECA1B5D9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CA408BC3860CA69A714C26 /* SunsetsClaimEditor */,
+				09D9DBF8D100BE613882670E /* SunsetsClaimEditor_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		F3CA408BC3860CA69A714C26 /* SunsetsClaimEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67B05ECCB0238A3D0A8DF8D /* Build configuration list for PBXNativeTarget "SunsetsClaimEditor" */;
+			buildPhases = (
+				1744137FF75CCBDA945F9986 /* Resources */,
+				E9491A964C247D035914D53B /* Copy Executable into .app */,
+			);
+			dependencies = (
+				F4387A8691766E479D136E25 /* SunsetsClaimEditor_Build */,
+			);
+			name = "SunsetsClaimEditor";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = F44FB62D8C1A4B319E2486E3;
+			productName = "SunsetsClaimEditor";
+		};
+/* End Run_App section */
+		F67B05ECCB0238A3D0A8DF8D /* Build configuration list for target SunsetsClaimEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AEAB811A116F8581D6FBC7 /* DebugGame */,
+				0BB4696C7201648302903611 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		68AEAB811A116F8581D6FBC7 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19107EA0C08CA3C0FAB1A0A /* SunsetsClaimEditor_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		0BB4696C7201648302903611 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E4389846A53F5AE71E0075 /* SunsetsClaimEditor_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		1744137FF75CCBDA945F9986 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7421F13E36BD49C8379919CE /* Assets.xcassets in Resources */,
+				95358FD056BBB82E88F2D9B3 /* LaunchScreen.storyboardc in Resources */,
+				ED435D8A0672DEA962582B90 /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		E9491A964C247D035914D53B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		18AEEB5FBF44732FDE044804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905782A352F0EE168ABC19AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D9DBF8D100BE613882670E;
+			remoteInfo = "SunsetsClaimEditor_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		F4387A8691766E479D136E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09D9DBF8D100BE613882670E /* SunsetsClaimEditor_Build */;
+			targetProxy = 18AEEB5FBF44732FDE044804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin Build section */
+		09D9DBF8D100BE613882670E /* SunsetsClaimEditor_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = E4996DCADE9BF0C2DCD23CED /* Build configuration list for PBXLegacyTarget "SunsetsClaimEditor_Build" */;
+			buildArgumentsString = "$(ACTION) SunsetsClaimEditor $(PLATFORM_NAME) $(CONFIGURATION) /Users/zibilianja/repos/sunsets-claim/Unreal/SunsetsClaim/SunsetsClaim.uproject";
+			buildToolPath = "/Users/zibilianja/Epic Games/UE_5.5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/zibilianja/Epic Games/UE_5.5";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "SunsetsClaimEditor_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Build section */
+		E4996DCADE9BF0C2DCD23CED /* Build configuration list for target SunsetsClaimEditor_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C1F7C528D180330833913 /* DebugGame */,
+				6A75A7EFE15052FDAEEE41C1 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		447C1F7C528D180330833913 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		6A75A7EFE15052FDAEEE41C1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		20DAC4198F24548BE7B0A4C5 /* Build configuration list for target SunsetsClaimEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828F5E6227F4A0FC965BE0FA /* DebugGame */,
+				85D06289EA7EFF814DA30F75 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		828F5E6227F4A0FC965BE0FA /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		85D06289EA7EFF814DA30F75 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+	};
+	rootObject = 905782A352F0EE168ABC19AA /* Project object */;
+}
