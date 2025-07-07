@@ -1,3 +1,0 @@
-Unreal/SunsetsClaim/Intermediate/Build/Mac/arm64/SunsetsClaimEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h.gch
-Unreal/SunsetsClaim/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
-Unreal/SunsetsClaim/Content/StarterContent/Maps/StarterMap_BuiltData.uasset
